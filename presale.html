@@ -1,508 +1,742 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Presale</title>
-    <link rel="stylesheet" href="main.css">
-    <script src="https://cdn.tailwindcss.com" defer></script>
-    
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header class="bg-[#16181c] py-3 px-4 shadow-lg">
-        <nav class="flex items-center justify-between">
-          <div>
-            <a href="./index.html">
-              <img class="h-9" src="https://metaacres.io/presaleImg/Metaacres-logo.png" alt="" />
-            </a>
-          </div>
-          <div class="hidden lg:flex text-white justify-between items-center space-x-4">
-            <a href="#" class="text-[#48b1be]">Home</a>
-            <a href="#" class="hover:text-[#48b1be]">Why ico</a>
-            <a href="#" class="hover:text-[#48b1be]">Features</a>
-            <a href="#" class="hover:text-[#48b1be]">Token</a>
-            <a href="#" class="hover:text-[#48b1be]">Roadmap</a>
-            <a href="#" class="hover:text-[#48b1be]">Contact</a>
-          </div>
-      
-          <!-- button -->
-          <div class="flex items-center space-x-4">
-            <div class="lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 172 172" style=" fill:#000000;">
-                <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
-                  <path d="M0,172v-172h172v172z" fill="none"></path>
-                  <g fill="#ffffff"><path d="M139.75,86c0,2.967 -2.408,5.375 -5.375,5.375h-96.75c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375h96.75c2.967,0 5.375,2.408 5.375,5.375zM139.75,134.375c0,2.97237 -2.408,5.375 -5.375,5.375h-96.75c-2.967,0 -5.375,-2.40263 -5.375,-5.375c0,-2.97237 2.408,-5.375 5.375,-5.375h96.75c2.967,0 5.375,2.40263 5.375,5.375zM32.25,37.625c0,-2.967 2.408,-5.375 5.375,-5.375h96.75c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375h-96.75c-2.967,0 -5.375,-2.408 -5.375,-5.375z"></path></g>
+      <nav class="flex items-center justify-between">
+        <div>
+          <a href="./index.html">
+            <img class="h-9" src="assets/images/Metaacres-logo.png" alt="" />
+          </a>
+        </div>
+        <div
+          class="hidden lg:flex text-white justify-between items-center space-x-4"
+        >
+          <a href="#" class="text-[#48b1be]">Home</a>
+          <a href="#" class="hover:text-[#48b1be]">Why ico</a>
+          <a href="#" class="hover:text-[#48b1be]">Features</a>
+          <a href="#" class="hover:text-[#48b1be]">Token</a>
+          <a href="#" class="hover:text-[#48b1be]">Roadmap</a>
+          <a href="#" class="hover:text-[#48b1be]">Contact</a>
+        </div>
+
+        <!-- button -->
+        <div class="flex items-center space-x-4">
+          <div class="lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              width="32"
+              height="32"
+              viewBox="0 0 172 172"
+              style="fill: #000000"
+            >
+              <g
+                fill="none"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+                style="mix-blend-mode: normal"
+              >
+                <path d="M0,172v-172h172v172z" fill="none"></path>
+                <g fill="#ffffff">
+                  <path
+                    d="M139.75,86c0,2.967 -2.408,5.375 -5.375,5.375h-96.75c-2.967,0 -5.375,-2.408 -5.375,-5.375c0,-2.967 2.408,-5.375 5.375,-5.375h96.75c2.967,0 5.375,2.408 5.375,5.375zM139.75,134.375c0,2.97237 -2.408,5.375 -5.375,5.375h-96.75c-2.967,0 -5.375,-2.40263 -5.375,-5.375c0,-2.97237 2.408,-5.375 5.375,-5.375h96.75c2.967,0 5.375,2.40263 5.375,5.375zM32.25,37.625c0,-2.967 2.408,-5.375 5.375,-5.375h96.75c2.967,0 5.375,2.408 5.375,5.375c0,2.967 -2.408,5.375 -5.375,5.375h-96.75c-2.967,0 -5.375,-2.408 -5.375,-5.375z"
+                  ></path>
                 </g>
-              </svg>
-            </div>
-            <button class="bg-[#48b1be] px-5 py-1 rounded-md text-white hover:bg-white hover:text-gray-800 transition-all duration-200 hidden md:block">Buy Now</button>
-            <button class="hover:bg-[#48b1be] transition-all duration-200 rounded-md bg-transparent text-white border-2 px-5 py-1">En</button>
+              </g>
+            </svg>
           </div>
-        </nav>
-      </header>
-      
-      <section class="bg-[#16181c] pt-7">
-        <div class="min-h-screen p-5 lg:grid lg:grid-cols-2 text-center max-w-6xl mx-auto">
-          <!-- timer box -->
-          <div style=" box-shadow: 0px 0px 8px 6px #48b1be;" class="hover:-translate-y-2 transition-all duration-200 mt-7 max-w-md mx-auto lg:mx-0 bg-[#16181c] shadow-xl py-10 px-7 text-center space-y-2 rounded-xl">
-            <div class="max-w-xs mx-auto space-y-4">
-              <div><button  id="prepare" class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 border-[#48b1be] bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider">Connect Wallet</button></div>
-              <div><p class="text-gray-200">Presale Ends In:</p></div>
-              <div class="">
-                <div class="flex justify-between text-center text-gray-200 font-semibold">
-                  <div class="c">
-                    <div class="days">00 :</div>
-                    <div class="text-xs">Days</div>
-                  </div>
-                  <div class="c">
-                    <div class="hours">00 :</div>
-                    <div class="text-xs">Hours</div>
-                  </div>
-                  <div class="">
-                    <div class="minutes">12 :</div>
-                    <div class="text-xs">Minutes</div>
-                  </div>
-                  <div class="">
-                    <div class="seconds">12 :</div>
-                    <div class="text-xs">Seconds</div>
+          <button
+            class="bg-[#48b1be] px-5 py-1 rounded-md text-white hover:bg-white hover:text-gray-800 transition-all duration-200 hidden md:block"
+          >
+            Buy Now
+          </button>
+          <button
+            class="hover:bg-[#48b1be] transition-all duration-200 rounded-md bg-transparent text-white border-2 px-5 py-1"
+          >
+            En
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <section class="bg-[#16181c] pt-7">
+      <div
+        class="min-h-screen p-5 lg:grid lg:grid-cols-2 text-center max-w-6xl mx-auto"
+      >
+        <!-- timer box -->
+        <div
+          style="box-shadow: 0px 0px 8px 6px #48b1be"
+          class="hover:-translate-y-2 transition-all duration-200 mt-7 max-w-md mx-auto lg:mx-0 bg-[#16181c] shadow-xl py-10 px-7 text-center space-y-2 rounded-xl"
+        >
+          <div class="max-w-xs mx-auto space-y-4">
+            <div>
+              <button
+                id="prepare"
+                class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 border-[#48b1be] bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider"
+              >
+                Connect Wallet
+              </button>
+            </div>
+            <div><p class="text-gray-200">Presale Ends In:</p></div>
+            <div class="">
+              <div
+                class="flex justify-between text-center text-gray-200 font-semibold"
+              >
+                <div class="c">
+                  <div class="days">00 :</div>
+                  <div class="text-xs">Days</div>
+                </div>
+                <div class="c">
+                  <div class="hours">00 :</div>
+                  <div class="text-xs">Hours</div>
+                </div>
+                <div class="">
+                  <div class="minutes">12 :</div>
+                  <div class="text-xs">Minutes</div>
+                </div>
+                <div class="">
+                  <div class="seconds">12 :</div>
+                  <div class="text-xs">Seconds</div>
+                </div>
+              </div>
+
+              <div class="pt-6 pb">
+                <div class="flex justify-between text-gray-200">
+                  <p>0</p>
+                  <p>300</p>
+                </div>
+                <div class="w-full bg-gray-200 h-2 rounded-md">
+                  <div
+                    class="bg-[#48b1be] h-2 rounded-md"
+                    style="width: 45%"
+                  ></div>
+                </div>
+                <div
+                  class="text-xs py-3 text-[#48b1be] font-medium border-[#48b1be] border-b-2"
+                >
+                  <span>--</span>
+                  <span>BNB Collected</span>
+                </div>
+                <div
+                  class="text-xs py-3 text-[#48b1be] font-medium border-[#48b1be] border-b-2"
+                >
+                  <div>409090 MARET</div>
+                  <div>Per BNB</div>
+                </div>
+                <div class="text-xs py-3 text-[#48b1be] font-medium">
+                  <div class="overflow-clip">
+                    <input
+                      class="rounded-md px-2 py-1 w-64"
+                      type="number"
+                      name=""
+                      id=""
+                      placeholder="Enter BNB to invest"
+                    />
                   </div>
                 </div>
-      
-                <div class="pt-6 pb">
-                  <div class="flex justify-between text-gray-200">
-                    <p>0</p>
-                    <p>300</p>
-                  </div>
-                  <div class="w-full bg-gray-200 h-2 rounded-md">
-                    <div class="bg-[#48b1be] h-2 rounded-md" style="width: 45%"></div>
-                  </div>
-                  <div class="text-xs py-3 text-[#48b1be] font-medium border-[#48b1be] border-b-2">
-                    <span>--</span>
-                    <span>BNB Collected</span>
-                  </div>
-                  <div class="text-xs py-3 text-[#48b1be] font-medium border-[#48b1be] border-b-2">
-                    <div>409090 MARET</div>
-                    <div>Per BNB</div>
-                  </div>
-                  <div class="text-xs py-3 text-[#48b1be] font-medium">
-                    <div class="overflow-clip">
-                      <input class=" rounded-md px-2 py-1 w-64" type="number" name="" id="" placeholder="Enter BNB to invest" />
-                    </div>
-                  </div>
-                  <div class="space-y-3">
-                    <button class="text-gray-200 bg-[#48b1be] transition-all duration-300 hover:bg-white hover:text-[#48b1be] border-2 border-[#48b1be] px-9 py-1 rounded-lg">Buy Token</button>
-                    <p class="text-gray-200">Price : 0.000924$ Per Token</p>
-                  </div>
+                <div class="space-y-3">
+                  <button
+                    class="text-gray-200 bg-[#48b1be] transition-all duration-300 hover:bg-white hover:text-[#48b1be] border-2 border-[#48b1be] px-9 py-1 rounded-lg"
+                  >
+                    Buy Token
+                  </button>
+                  <p class="text-gray-200">Price : 0.000924$ Per Token</p>
                 </div>
               </div>
             </div>
           </div>
-      
-          <!-- another div -->
-          <!-- wrapper -->
-          <div class="wrapper">
-            <div class="border-[#48b1be] border-b-2 my-12">
-              <p class="text-center text-[#48b1be] font-medium tracking-wider">Presale</p>
-              <div class="space-x-6 text-center py-3 text-gray-200">
-                <span class="border-r-2 pr-8 border-[#48b1be]">Phase 2</span>
-                <span class="">25 days</span>
-              </div>
+        </div>
+
+        <!-- another div -->
+        <!-- wrapper -->
+        <div class="wrapper">
+          <div class="border-[#48b1be] border-b-2 my-12">
+            <p class="text-center text-[#48b1be] font-medium tracking-wider">
+              Presale
+            </p>
+            <div class="space-x-6 text-center py-3 text-gray-200">
+              <span class="border-r-2 pr-8 border-[#48b1be]">Phase 2</span>
+              <span class="">25 days</span>
             </div>
-      
-            <div class="grid lg:grid-cols-2 lg:mb-12">
-              <div class="space-y-2 text-center">
-                <p class="text-[#48b1be] tracking-wider font-semibold">Referral Reward</p>
-                <p class="text-4xl text-gray-200">5%</p>
-                <div class="getting-started">
+          </div>
+
+          <div class="grid lg:grid-cols-2 lg:mb-12">
+            <div class="space-y-2 text-center">
+              <p class="text-[#48b1be] tracking-wider font-semibold">
+                Referral Reward
+              </p>
+              <p class="text-4xl text-gray-200">5%</p>
+              <div class="getting-started">
                 <div class="text-gray-200">
-                  <div class="days inline-block">00 </div> <span>:</span>
-                  <span class="hours">00 :</span> <span>:</span>
+                  <div class="days inline-block">00</div>
+                  <span>:</span> <span class="hours">00 :</span> <span>:</span>
                   <span class="minutes">00 :</span> <span>:</span>
                   <span class="seconds">00</span>
                 </div>
-            </div>
-              </div>
-              <div class="space-y-2 text-center my-10 lg:my-0">
-                <p class="text-[#48b1be] tracking-wider font-semibold">Total Raised</p>
-                <h3 class="text-4xl text-gray-200">$--</h3>
-      
-                <div class="text-[#48b1be] font-semibold">
-                  <h6 class="">11/02/22 6:00 AM - 05/03/22 5:59 AM</h6>
-                </div>
               </div>
             </div>
-      
-            <div class="space-y-3 text-gray-200 text-left">
-              <h6>Your Referral ID : <span id="ref"> -- </span></h6>
-              <h6>Your Joining Link :<span id="ref1"> -- </span></h6>
-              <h6>Your Phase 1 Referror : <span id="phase1ref"> -- </span></h6>
-              <h6>Buying a Token gives you a chance of winning 4%.</h6>
-              <h6>Referror recieves 5% in BNB.</h6>
-              <h6>Buying a token gives you a chance of winning NFT in Future.</h6>
+            <div class="space-y-2 text-center my-10 lg:my-0">
+              <p class="text-[#48b1be] tracking-wider font-semibold">
+                Total Raised
+              </p>
+              <h3 class="text-4xl text-gray-200">$--</h3>
+
+              <div class="text-[#48b1be] font-semibold">
+                <h6 class="">11/02/22 6:00 AM - 05/03/22 5:59 AM</h6>
+              </div>
             </div>
           </div>
-          
+
+          <div class="space-y-3 text-gray-200 text-left">
+            <h6>Your Referral ID : <span id="ref"> -- </span></h6>
+            <h6>Your Joining Link :<span id="ref1"> -- </span></h6>
+            <h6>Your Phase 1 Referror : <span id="phase1ref"> -- </span></h6>
+            <h6>Buying a Token gives you a chance of winning 4%.</h6>
+            <h6>Referror recieves 5% in BNB.</h6>
+            <h6>Buying a token gives you a chance of winning NFT in Future.</h6>
+          </div>
         </div>
-      </section>
-      
+      </div>
+    </section>
 
-
-      <!-- section 2 -->
-      <section class="bg-[#16181c] md:pt-36">
-        <div class="p-5 lg:flex lg:justify-between text-center max-w-6xl mx-auto">
-  
-            <div class="lg:w-1/4 flex flex-col  space-y-4 items-center hover:-translate-y-4 transition-all duration-500">
-                <img src="/presale-img/maret-coin.png" alt="">
-                <button class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 border-[#48b1be] bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider">Phase 2</button>
+    <!-- section 2 -->
+    <section class="bg-[#16181c] md:pt-36">
+      <div class="p-5 lg:flex lg:justify-between text-center max-w-6xl mx-auto">
+        <div
+          class="lg:w-1/4 flex flex-col space-y-4 items-center hover:-translate-y-4 transition-all duration-500"
+        >
+          <img src="/presale-img/maret-coin.png" alt="" />
+          <button
+            class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 border-[#48b1be] bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider"
+          >
+            Phase 2
+          </button>
+        </div>
+        <!-- another div -->
+        <!-- wrapper -->
+        <div class="wrapper lg:w-3/4">
+          <div class="border-[#48b1be] border-b-2 my-12">
+            <p class="text-center text-[#48b1be] font-medium tracking-wider">
+              Presale Reward and Token Claim
+            </p>
+            <div class="space-x-6 text-center py-3 text-gray-200">
+              <span class="border-r-2 pr-8 border-[#48b1be]">Phase 2</span>
+              <span class="">25 days</span>
             </div>
-          <!-- another div -->
-          <!-- wrapper -->
-          <div class="wrapper lg:w-3/4">
-            <div class="border-[#48b1be] border-b-2 my-12">
-              <p class="text-center text-[#48b1be] font-medium tracking-wider">Presale Reward and Token Claim</p>
-              <div class="space-x-6 text-center py-3 text-gray-200">
-                <span class="border-r-2 pr-8 border-[#48b1be]">Phase 2</span>
-                <span class="">25 days</span>
-              </div>
-            </div>
-      
-            <div class="grid sm:grid-cols-2 text-center max-w-7xl mx-auto  text-gray-200">
-
-                <!-- first div -->
-                <div>
-                
-                <div>
-                <span>Token <h4 id="1checkContribution">--</h4></span>
-                </div>
-                <div>
-                <span>  <h4>--</h4></span>
-                </div>
-                <div>
-                <span> 40% To Claim  <h4>--</h4></span>
-                </div>
-                <div>
-                <span> Total Referral  <h4 id="1totalReferral">--</h4></span>
-                </div>
-                <div>
-                <span> Bonus Claimed  <h4 id="1bonusClaimed">--</h4></span>
-                </div>
-             
-                </div>
-                
-                
-                <!-- second div  -->
-                <div>
-                
-                <div>
-                <span> Tokens Unclaimed  <h4 id="1tokenUnclaimed">--</h4></span>
-                </div>
-                <div>
-                <span> Bonus Unclaimed  <h4 id="1bonusReferral">--</h4></span>
-                </div>
-                <div>
-                <span>  60% To Claim (Monthly)  <h4 id="1monthlyClaim">--</h4></span>
-                </div>
-                <div>
-                <span> Tokens Claimed  <h4 id="1claimed">--</h4></span>
-                </div>
-                <div>
-                <span> Referral Sent <h4 id="1referralClaimed">--</h4></span>
-                </div>
-                
-                </div>
-                
-                </div>
-
-
           </div>
 
+          <div
+            class="grid sm:grid-cols-2 text-center max-w-7xl mx-auto text-gray-200"
+          >
+            <!-- first div -->
+            <div>
+              <div>
+                <span
+                  >Token
+                  <h4 id="1checkContribution">--</h4></span
+                >
+              </div>
+              <div>
+                <span> <h4>--</h4></span>
+              </div>
+              <div>
+                <span>
+                  40% To Claim
+                  <h4>--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  Total Referral
+                  <h4 id="1totalReferral">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  Bonus Claimed
+                  <h4 id="1bonusClaimed">--</h4></span
+                >
+              </div>
+            </div>
+
+            <!-- second div  -->
+            <div>
+              <div>
+                <span>
+                  Tokens Unclaimed
+                  <h4 id="1tokenUnclaimed">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  Bonus Unclaimed
+                  <h4 id="1bonusReferral">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  60% To Claim (Monthly)
+                  <h4 id="1monthlyClaim">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  Tokens Claimed
+                  <h4 id="1claimed">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  Referral Sent
+                  <h4 id="1referralClaimed">--</h4></span
+                >
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="bg-[#48b1be] max-w-6xl mx-auto p-6 lg:flex lg:justify-between lg:items-center text-center space-y-3">
-
-            <div>
-                <button class="hover:bg-white hover:text-[#48b1be] transition-all duration-300  border-2 bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider">Claim Reward</button>
-            </div>
-
-            <div>
-                <h6 class="text-white">1/02/22 6:00 AM - 15/03/22 5:59 AM</h6>
-            </div>
-
-            <div>
-                <button class="hover:bg-white hover:text-[#48b1be] transition-all duration-300  border-2 bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider">Claim Token</button>
-            </div>
-
-
+      </div>
+      <div
+        class="bg-[#48b1be] max-w-6xl mx-auto p-6 lg:flex lg:justify-between lg:items-center text-center space-y-3"
+      >
+        <div>
+          <button
+            class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider"
+          >
+            Claim Reward
+          </button>
         </div>
-      </section>
 
+        <div>
+          <h6 class="text-white">1/02/22 6:00 AM - 15/03/22 5:59 AM</h6>
+        </div>
 
-      <!-- section-3 -->
-      <section class="bg-[#16181c] md:pt-36">
-        <div class="min-h-screen p-5 lg:grid lg:grid-cols-2 text-center max-w-6xl mx-auto">
-          <!-- timer box -->
-          <div style="box-shadow: 0px 0px 8px 6px #48b1be;" class="hover:-translate-y-2 transition-all duration-200 lg:h-96 mt-7 max-w-xs mx-auto lg:mx-0 bg-[#16181c] shadow-xl py-10 px-7 text-center space-y-2 rounded-xl">
-            <div class=" max-w-xs mx-auto space-y-4">
-             
+        <div>
+          <button
+            class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider"
+          >
+            Claim Token
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section-3 -->
+    <section class="bg-[#16181c] md:pt-36">
+      <div
+        class="min-h-screen p-5 lg:grid lg:grid-cols-2 text-center max-w-6xl mx-auto"
+      >
+        <!-- timer box -->
+        <div
+          style="box-shadow: 0px 0px 8px 6px #48b1be"
+          class="hover:-translate-y-2 transition-all duration-200 lg:h-96 mt-7 max-w-xs mx-auto lg:mx-0 bg-[#16181c] shadow-xl py-10 px-7 text-center space-y-2 rounded-xl"
+        >
+          <div class="max-w-xs mx-auto space-y-4">
             <div class="getting-started">
               <div><p class="text-gray-200">Presale Ended</p></div>
               <div class="">
-              
-      
                 <div class="pt-6 pb">
                   <div class="flex justify-between text-gray-200">
                     <p>0</p>
                     <p>300</p>
                   </div>
                   <div class="w-full bg-gray-200 h-2 rounded-md">
-                    <div class="bg-[#48b1be] h-2 rounded-md" style="width: 45%"></div>
+                    <div
+                      class="bg-[#48b1be] h-2 rounded-md"
+                      style="width: 45%"
+                    ></div>
                   </div>
-                  <div class="text-xs py-3 text-[#48b1be] font-medium border-[#48b1be] border-b-2">
+                  <div
+                    class="text-xs py-3 text-[#48b1be] font-medium border-[#48b1be] border-b-2"
+                  >
                     <span>--</span>
                     <span>BNB Collected</span>
                   </div>
-                  <div class="text-xs py-3 text-[#48b1be] font-medium border-[#48b1be] border-b-2">
+                  <div
+                    class="text-xs py-3 text-[#48b1be] font-medium border-[#48b1be] border-b-2"
+                  >
                     <div>409090 MARET</div>
                     <div>Per BNB</div>
                   </div>
-                  <div class="text-xs py-3 text-[#48b1be] font-medium">
-                     
-                  </div>
+                  <div class="text-xs py-3 text-[#48b1be] font-medium"></div>
                   <div class=" ">
                     <p class="text-gray-200">Price : 0.000924$ Per Token</p>
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- another div -->
+        <!-- wrapper -->
+        <div class="wrapper">
+          <div class="border-[#48b1be] border-b-2 my-12">
+            <p class="text-center text-[#48b1be] font-medium tracking-wider">
+              Presale
+            </p>
+            <div class="space-x-6 text-center py-3 text-gray-200">
+              <span class="border-r-2 pr-8 border-[#48b1be]">Phase 2</span>
+              <span class="">25 days</span>
+            </div>
+          </div>
+
+          <div class="grid lg:grid-cols-2 lg:mb-12">
+            <div class="space-y-2 text-center">
+              <p class="text-[#48b1be] tracking-wider font-semibold">
+                Referral Reward
+              </p>
+              <p class="text-4xl text-gray-200">5%</p>
+              <div class="text-gray-200">
+                <span>Ended</span>
+              </div>
+            </div>
+            <div class="space-y-2 text-center my-10 lg:my-0">
+              <p class="text-[#48b1be] tracking-wider font-semibold">
+                Total Raised
+              </p>
+              <h3 class="text-4xl text-gray-200">$--</h3>
+
+              <div class="text-[#48b1be] font-semibold">
+                <h6 class="">11/02/22 6:00 AM - 05/03/22 5:59 AM</h6>
               </div>
             </div>
           </div>
-      
-          <!-- another div -->
-          <!-- wrapper -->
-          <div class="wrapper">
-            <div class="border-[#48b1be] border-b-2 my-12">
-              <p class="text-center text-[#48b1be] font-medium tracking-wider">Presale</p>
-              <div class="space-x-6 text-center py-3 text-gray-200">
-                <span class="border-r-2 pr-8 border-[#48b1be]">Phase 2</span>
-                <span class="">25 days</span>
-              </div>
-            </div>
-      
-            <div class="grid lg:grid-cols-2 lg:mb-12">
-              <div class="space-y-2 text-center">
-                <p class="text-[#48b1be] tracking-wider font-semibold">Referral Reward</p>
-                <p class="text-4xl text-gray-200">5%</p>
-                <div class="text-gray-200">
-                  <span>Ended</span>
-                 
-                </div>
-              </div>
-              <div class="space-y-2 text-center my-10 lg:my-0">
-                <p class="text-[#48b1be] tracking-wider font-semibold">Total Raised</p>
-                <h3 class="text-4xl text-gray-200">$--</h3>
-      
-                <div class="text-[#48b1be] font-semibold">
-                  <h6 class="">11/02/22 6:00 AM - 05/03/22 5:59 AM</h6>
-                </div>
-              </div>
-            </div>
-      
-            <div class="space-y-3 text-gray-200 text-left">
-              <h6>Buying a Token gives you a chance of winning 5%.  <span> -- </span></h6>
-              <h6>Referror recieves 5% of Token. <span> -- </span></h6>
-              <h6>Buying a token gives you a chance of winning NFT in Future. </h6>
+
+          <div class="space-y-3 text-gray-200 text-left">
+            <h6>
+              Buying a Token gives you a chance of winning 5%. <span> -- </span>
+            </h6>
+            <h6>Referror recieves 5% of Token. <span> -- </span></h6>
+            <h6>Buying a token gives you a chance of winning NFT in Future.</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 4 -->
+    <section class="bg-[#16181c]">
+      <div class="p-5 lg:flex lg:justify-between text-center max-w-6xl mx-auto">
+        <div
+          class="lg:w-1/4 flex flex-col space-y-4 items-center hover:-translate-y-4 transition-all duration-500"
+        >
+          <img src="/presale-img/maret-coin.png" alt="" />
+          <button
+            class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 border-[#48b1be] bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider"
+          >
+            Phase 2
+          </button>
+        </div>
+        <!-- another div -->
+        <!-- wrapper -->
+        <div class="wrapper lg:w-3/4">
+          <div class="border-[#48b1be] border-b-2 my-12">
+            <p class="text-center text-[#48b1be] font-medium tracking-wider">
+              Presale Reward and Token Claim
+            </p>
+            <div class="space-x-6 text-center py-3 text-gray-200">
+              <span class="border-r-2 pr-8 border-[#48b1be]">Phase 1</span>
+              <span class="">45 days</span>
             </div>
           </div>
-          
-        </div>
-      </section>
 
-      <!-- section 4 -->
-      <section class="bg-[#16181c] ">
-        <div class="p-5 lg:flex lg:justify-between text-center max-w-6xl mx-auto">
-  
-            <div class="lg:w-1/4 flex flex-col  space-y-4 items-center hover:-translate-y-4 transition-all duration-500">
-                <img src="/presale-img/maret-coin.png" alt="">
-                <button class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 border-[#48b1be] bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider">Phase 2</button>
-            </div>
-          <!-- another div -->
-          <!-- wrapper -->
-          <div class="wrapper lg:w-3/4">
-            <div class="border-[#48b1be] border-b-2 my-12">
-              <p class="text-center text-[#48b1be] font-medium tracking-wider">Presale Reward and Token Claim</p>
-              <div class="space-x-6 text-center py-3 text-gray-200">
-                <span class="border-r-2 pr-8 border-[#48b1be]">Phase 1</span>
-                <span class="">45 days</span>
+          <div
+            class="grid sm:grid-cols-2 text-center max-w-7xl mx-auto text-gray-200"
+          >
+            <!-- first div -->
+            <div>
+              <div>
+                <span
+                  >Token
+                  <h4 id="checkContribution">--</h4></span
+                >
+              </div>
+
+              <div>
+                <span>
+                  Referral Unclaimed
+                  <h4 id="checkReward">--</h4></span
+                >
+              </div>
+
+              <div>
+                <span>
+                  40% To Claim
+                  <h4 id="initialClaim">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  Total Referral
+                  <h4 id="totalReferral">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  Bonus Claimed
+                  <h4 id="bonusClaimed">--</h4></span
+                >
               </div>
             </div>
-      
-            <div class="grid sm:grid-cols-2 text-center max-w-7xl mx-auto  text-gray-200">
 
-                <!-- first div -->
-                <div>
-                
-                <div>
-                <span>Token <h4 id="checkContribution">--</h4></span>
-                </div>
-
-                <div>
-                <span > Referral Unclaimed  <h4 id="checkReward">--</h4></span>
-                </div>
-
-                <div>
-                <span > 40% To Claim  <h4 id="initialClaim">--</h4></span>
-                </div>
-                <div>
-                <span> Total Referral  <h4 id="totalReferral">--</h4></span>
-                </div>
-                <div>
-                <span> Bonus Claimed  <h4 id="bonusClaimed">--</h4></span>
-                </div>
-             
-                </div>
-                
-                
-                <!-- second div  -->
-                <div>
-                
-                <div>
-                <span> Tokens Unclaimed  <h4 id="tokenUnclaimed">--</h4></span>
-                </div>
-                <div>
-                <span> Bonus Unclaimed  <h4 id="bonusReferral">--</h4></span>
-                </div>
-                <div>
-                <span>  60% To Claim (Monthly)  <h4 id="monthlyClaim">--</h4></span>
-                </div>
-                <div>
-                <span> Tokens Claimed  <h4 id="claimed">--</h4></span>
-                </div>
-                <div>
-                <span> Referral Sent <h4 id="referralClaimed">--</h4></span>
-                </div>
-                
-                </div>
-                
-                </div>
-
-
+            <!-- second div  -->
+            <div>
+              <div>
+                <span>
+                  Tokens Unclaimed
+                  <h4 id="tokenUnclaimed">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  Bonus Unclaimed
+                  <h4 id="bonusReferral">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  60% To Claim (Monthly)
+                  <h4 id="monthlyClaim">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  Tokens Claimed
+                  <h4 id="claimed">--</h4></span
+                >
+              </div>
+              <div>
+                <span>
+                  Referral Sent
+                  <h4 id="referralClaimed">--</h4></span
+                >
+              </div>
+            </div>
           </div>
-
         </div>
-        <div class="bg-[#48b1be] max-w-6xl mx-auto p-6 lg:flex lg:justify-between lg:items-center text-center space-y-3">
-
-            <div>
-                <button class="hover:bg-white hover:text-[#48b1be] transition-all duration-300  border-2 bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider">Claim Reward</button>
-            </div>
-
-            <div>
-                <h6 class="text-white">1/02/22 6:00 AM - 15/03/22 5:59 AM</h6>
-            </div>
-
-            <div>
-                <button class="hover:bg-white hover:text-[#48b1be] transition-all duration-300  border-2 bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider">Claim Token</button>
-            </div>
-
-
+      </div>
+      <div
+        class="bg-[#48b1be] max-w-6xl mx-auto p-6 lg:flex lg:justify-between lg:items-center text-center space-y-3"
+      >
+        <div>
+          <button
+            class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider"
+          >
+            Claim Reward
+          </button>
         </div>
-      </section>
 
-      <!-- section 5 -->
-      <section class="bg-[#16181c] pt-36">
-          <div class="max-w-6xl mx-auto px-5">
+        <div>
+          <h6 class="text-white">1/02/22 6:00 AM - 15/03/22 5:59 AM</h6>
+        </div>
+
+        <div>
+          <button
+            class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider"
+          >
+            Claim Token
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section 5 -->
+    <section class="bg-[#16181c] pt-36">
+      <div class="max-w-6xl mx-auto px-5">
         <div class="lg:flex lg:justify-between lg:items-center">
-
-            <div class="lg:w-1/2  ">
-                <img class="h-72 lg:h-auto mx-auto md:mx-0" src="/presale-img/cs-image.png" alt="">
-            </div>
-            <div class="lg:w-1/2 space-y-5">
-                <h2 class="lg:text-5xl text-4xl text-gray-200 uppercase tracking-widest"> If You have any <br> Questions </h2>
-                <p class="text-gray-200 tracking-widest"> Our top priorities are to protect your privacy, provide secure transactions, and safeguard your data. When you're ready to play, registering an account is required so we know you're of legal age and so no one else can use your account.We answer the most commonly asked lotto questions.. </p>
-                <button class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 border-[#48b1be] bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider">Contact Us</button>
-            </div>
-        </div>
-    </div>
-      </section>
-
-
-      <!-- section 6 -->
-      <section class="bg-[#16181c] py-36">
-        <div class="max-w-6xl mx-auto ">
-            <div class="flex flex-col justify-center items-center space-y-3">
-
-            
-            <div class="text-gray-200 space-y-3">
-                <h3 class="text-lg text-center tracking-widest"> Subscribe to Metaacres </h3>
-                <h2 class="text-lg tracking-widest uppercase"> To Get Exclusive Benefits </h2>
-            </div>
-
-            <div class="flex flex-col md:block space-y-3">
-                <input class="bg-transparent border px-8 py-3 rounded-md text-white" type="email" placeholder="Your Email Address">
-                <button class=" hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 border-[#48b1be] bg-[#48b1be] px-9 py-3 rounded-md text-gray-100 tracking-wider">Subscribe</button>
-            </div>
-        </div>
-        </div>
-      </section>
-
-      <footer class="bg-[#16181c] pb-2 ">
-          <div class="flex flex-col justify-center items-center space-y-4">
-
-            <div><img src="/presale-img/maret-coin.png" alt=""></div>
-
-            <div>
-                
-             <div class="flex justify-center space-x-3">
-    <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="inline-block p-3 mb-2 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out" style="background-color: #48b1be;">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4">
-        <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-      </svg>
-    </button>
-    <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="inline-block p-3 mb-2 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out" style="background-color: #48b1be;">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4">
-        <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-      </svg>
-    </button>
-    <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="inline-block p-3 mb-2 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out" style="background-color: #48b1be;">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4">
-        <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-      </svg>
-    </button>
-    <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="inline-block p-3 mb-2 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out" style="background-color: #48b1be;">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4">
-        <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-      </svg>
-    </button>
-    <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" class="inline-block p-3 mb-2 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out" style="background-color: #48b1be;">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-4 h-4">
-        <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-      </svg>
-    </button>
-                </div>
-
-            </div>
-            <div>
-                <h3 class="text-gray-200">
-                    Copyright © 2022.All Rights Reserved By <span class="text-[#48b1be]">Metaacres</span>
-                </h3>
-            </div>
-
+          <div class="lg:w-1/2">
+            <img
+              class="h-72 lg:h-auto mx-auto md:mx-0"
+              src="/presale-img/cs-image.png"
+              alt=""
+            />
           </div>
-      </footer>
+          <div class="lg:w-1/2 space-y-5">
+            <h2
+              class="lg:text-5xl text-4xl text-gray-200 uppercase tracking-widest"
+            >
+              If You have any <br />
+              Questions
+            </h2>
+            <p class="text-gray-200 tracking-widest">
+              Our top priorities are to protect your privacy, provide secure
+              transactions, and safeguard your data. When you're ready to play,
+              registering an account is required so we know you're of legal age
+              and so no one else can use your account.We answer the most
+              commonly asked lotto questions..
+            </p>
+            <button
+              class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 border-[#48b1be] bg-[#48b1be] px-9 py-1 rounded-md text-gray-100 tracking-wider"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- section 6 -->
+    <section class="bg-[#16181c] py-36">
+      <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col justify-center items-center space-y-3">
+          <div class="text-gray-200 space-y-3">
+            <h3 class="text-lg text-center tracking-widest">
+              Subscribe to Metaacres
+            </h3>
+            <h2 class="text-lg tracking-widest uppercase">
+              To Get Exclusive Benefits
+            </h2>
+          </div>
 
- 
-<script src="/js/jquery.countdown.min.js"></script>
+          <div class="flex flex-col md:block space-y-3">
+            <input
+              class="bg-transparent border px-8 py-3 rounded-md text-white"
+              type="email"
+              placeholder="Your Email Address"
+            />
+            <button
+              class="hover:bg-white hover:text-[#48b1be] transition-all duration-300 border-2 border-[#48b1be] bg-[#48b1be] px-9 py-3 rounded-md text-gray-100 tracking-wider"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<script type="text/javascript">
-    $('.getting-started').countdown('2022/09/07', function(event) {
-      $('.days').html(event.strftime('%D'));
-      $('.hours').html(event.strftime('%H'));
-      $('.minutes').html(event.strftime('%M'));
-      $('.seconds').html(event.strftime('%S'));
-    });
-  </script>
+    <footer class="bg-[#16181c] pb-2">
+      <div class="flex flex-col justify-center items-center space-y-4">
+        <div><img src="/presale-img/maret-coin.png" alt="" /></div>
 
- 
+        <div>
+          <div class="flex justify-center space-x-3">
+            <button
+              type="button"
+              data-mdb-ripple="true"
+              data-mdb-ripple-color="light"
+              class="inline-block p-3 mb-2 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+              style="background-color: #48b1be"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="w-4 h-4"
+              >
+                <path
+                  fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </button>
+            <button
+              type="button"
+              data-mdb-ripple="true"
+              data-mdb-ripple-color="light"
+              class="inline-block p-3 mb-2 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+              style="background-color: #48b1be"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="w-4 h-4"
+              >
+                <path
+                  fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </button>
+            <button
+              type="button"
+              data-mdb-ripple="true"
+              data-mdb-ripple-color="light"
+              class="inline-block p-3 mb-2 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+              style="background-color: #48b1be"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="w-4 h-4"
+              >
+                <path
+                  fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </button>
+            <button
+              type="button"
+              data-mdb-ripple="true"
+              data-mdb-ripple-color="light"
+              class="inline-block p-3 mb-2 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+              style="background-color: #48b1be"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="w-4 h-4"
+              >
+                <path
+                  fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </button>
+            <button
+              type="button"
+              data-mdb-ripple="true"
+              data-mdb-ripple-color="light"
+              class="inline-block p-3 mb-2 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out"
+              style="background-color: #48b1be"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="w-4 h-4"
+              >
+                <path
+                  fill="currentColor"
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-gray-200">
+            Copyright © 2022.All Rights Reserved By
+            <span class="text-[#48b1be]">Metaacres</span>
+          </h3>
+        </div>
+      </div>
+    </footer>
 
-</body>
+    <script src="/js/jquery.countdown.min.js"></script>
+
+    <script type="text/javascript">
+      $(".getting-started").countdown("2022/09/07", function (event) {
+        $(".days").html(event.strftime("%D"));
+        $(".hours").html(event.strftime("%H"));
+        $(".minutes").html(event.strftime("%M"));
+        $(".seconds").html(event.strftime("%S"));
+      });
+    </script>
+  </body>
 </html>
